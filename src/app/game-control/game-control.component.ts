@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./game-control.component.css']
 })
 export class GameControlComponent implements OnInit {
-  @Input() counter: { type: number, name: string, value: number };
+  @Input() counter: { type: number, value: number };
 
   constructor() { }
 

@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  title = 'databinding-assignment';
+  counter: number = 0;
 }
